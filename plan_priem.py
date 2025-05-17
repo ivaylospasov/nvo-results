@@ -14,7 +14,6 @@ df = pd.read_csv('raw_data/plan-priem-2024-2025.csv', sep=',')
 plovdiv_filter = df['Нас. място'] == 'ГР.ПЛОВДИВ'
 plovdiv_df = df[plovdiv_filter]
 
-
 #%%
 score_6 = 50
 score_5 = 39
